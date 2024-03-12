@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
 
 .container {
@@ -57,7 +58,9 @@ body {
     color: white;
     cursor: pointer;
 }
-
+.logo1,.logo2,.logo3,.logo4,.logo5{
+    display: inline;
+}
 .bean-actions button:hover {
     background-color: red;
 }
