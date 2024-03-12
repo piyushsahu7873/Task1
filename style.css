@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('blurred-colorful-wallpaper-background_976742-179.avif');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60vw;
+    height: 80vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.bean {
+    padding: 30px;
+    text-align: center;
+}
+
+.bean-image {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    background-color: aqua;
+}
+
+.bean-name {
+    color: blue;
+    margin-top: 10px;
+}
+
+.bean-info {
+    margin-top: 20px;
+}
+
+.bean-info p {
+    margin: 20px 10px;
+    display: inline-block;
+    color: gray;
+    font-size: 25px;
+}
+
+.bean-actions {
+    margin-top: 20px;
+}
+
+.bean-actions button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+.bean-actions button:hover {
+    background-color: red;
+}
